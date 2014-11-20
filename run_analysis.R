@@ -119,5 +119,5 @@ names(tidy_final) <- tidy_selected_features[ ,2]
 # The tidy data set in the tidy_final dataframe is written to a CSV format file for use in further
 # analysis.  The resulting CSV file can be imported into Excel for further inspection.
 
-write.table(tidy_final, "./tidy_final.csv", quote=TRUE, sep=',', eol="\r\n", row.names=FALSE, col.names=TRUE)
-
+write.table(tidy_final, "./tidy_UCI_HAR.csv", quote=TRUE, sep=',', eol="\r\n", row.names=FALSE, col.names=TRUE)
+write.table(tidy_final, "./tidy_UCI_HAR.txt", quote=TRUE, sep=',', eol="\r\n", row.names=FALSE, col.names=TRUE)

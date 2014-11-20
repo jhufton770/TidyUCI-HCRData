@@ -1,1 +1,3 @@
-THis is a test to make sure git is now working.
+Now let's see if this update propagates to git.
+
+JDH

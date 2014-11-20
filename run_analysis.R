@@ -121,3 +121,4 @@ names(tidy_final) <- tidy_selected_features[ ,2]
 
 write.table(tidy_final, "./tidy_UCI_HAR.csv", quote=TRUE, sep=',', eol="\r\n", row.names=FALSE, col.names=TRUE)
 write.table(tidy_final, "./tidy_UCI_HAR.txt", quote=TRUE, sep=',', eol="\r\n", row.names=FALSE, col.names=TRUE)
+ 

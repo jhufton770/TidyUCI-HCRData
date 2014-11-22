@@ -1,3 +1,3 @@
-Now let's see if this update propagates to git.
+Will this editor properly format and README.md file?
 
-JDH
+

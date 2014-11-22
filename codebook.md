@@ -22,11 +22,12 @@ A series of low pass filters were used on the data to classify the measurements 
 	*	Acceleration - middle range frequency components of the data which are interpreted as body motion
 	*	Gravity - low range frequency components of the data which are interprested as the effects of gravity
 
+Measurements from each set of observational variables are presented in the time-domain, as well as in the frequency-domain.  Frequency-domain information was obtained by applying a Fast Fourier Transform to some of the data.
 
 Dataset Columns
 ---------------
 
-Below are the columns of the dataset.  Shown are the column number, column name and a brief description of the data in the column
+Below are the columns of the dataset.  Shown are the column number, column name and a brief description of the data in the column.
 
 *	1			Subject 
 
@@ -44,70 +45,70 @@ Below are the columns of the dataset.  Shown are the column number, column name 
 					
 *	3			timeBodyAccMeanX
 
-		Mean of time domain body acceleration: X-axis measurement
+		Mean of time-domain body acceleration: X-axis measurement
 					
 *	4			timeBodyAccMeanY
 
-		Mean of time domain body acceleration: Y-axis measurement
+		Mean of time-domain body acceleration: Y-axis measurement
 					
 *	5			timeBodyAccMeanZ
 
-		Mean of time domain body acceleration: Z-axis measurement
+		Mean of time-domain body acceleration: Z-axis measurement
 		
 *	6			timeBodyAccStdX
 
-		Std. Dev. of time domain body acceleration: X-axis measurement
+		Std. Dev. of time-domain body acceleration: X-axis measurement
 		
 *	7			timeBodyAccStdY
 
-		Std. Dev. of time domain body acceleration: Y-axis measurement
+		Std. Dev. of time-domain body acceleration: Y-axis measurement
 		
 *	8			timeBodyAccStdZ
 
-		Std. Dev. of time domain body acceleration: Z-axis measurement
+		Std. Dev. of time-domain body acceleration: Z-axis measurement
 		
 *	9			timeGravityAccMeanX
 
-		Mean of time domain gravity acceleration: X-axis measurement
+		Mean of time-domain gravity acceleration: X-axis measurement
 		
 *	10			timeGravityAccMeanY
 
-		Mean of time domain gravity acceleration: Y-axis measurement
+		Mean of time-domain gravity acceleration: Y-axis measurement
 		
 *	11			timeGravityAccMeanZ
 
-		Mean of time domain gravity acceleration: Z-axis measurement
+		Mean of time-domain gravity acceleration: Z-axis measurement
 		
 *	12			timeGravityAccStdX
 	
-		Std. Dev. of time domain gravity acceleration: X-axis measurement
+		Std. Dev. of time-domain gravity acceleration: X-axis measurement
 		
 *	13			timeGravityAccStdY
 
-		Std. Dev. of time domain gravity acceleration: Y-axis measurement
+		Std. Dev. of time-domain gravity acceleration: Y-axis measurement
 		
 *	14			timeGravityAccStdZ
 
-		Std. Dev. of time domain gravity acceleration: Z-axis measurement
+		Std. Dev. of time-domain gravity acceleration: Z-axis measurement
 		
 *	15			timeBodyAccJerkMeanX
 
-		Mean of the time domain body jerk acceleration: X-axis measurement
+		Mean of the time-domain body jerk acceleration: X-axis measurement
 *	16			timeBodyAccJerkMeanY
 
-		Mean of the time domain body jerk acceleration: Y-axis measurement
+		Mean of the time-domain body jerk acceleration: Y-axis measurement
 		
 *	17			timeBodyAccJerkMeanZ
 
-		Mean of the time domain body jerk acceleration: Z-axis measurement
+		Mean of the time-domain body jerk acceleration: Z-axis measurement
 		
 *	18			timeBodyAccJerkStdX
 
-		Std. Dev. of the time domain body jerk acceleration: X-axis measurement
+		Std. Dev. of the time-domain body jerk acceleration: X-axis measurement
 		
 *	19			timeBodyAccJerkStdY
 
-		Std. Dev. of the time domain body jerk acceleration: Y-axis measurement
+		Std. Dev. of the time-domain body jerk acceleration: Y-axis measurement
 		
 *	20			timeBodyAccJerkStdZ
 	
@@ -115,245 +116,245 @@ Below are the columns of the dataset.  Shown are the column number, column name 
 		
 *	21			timeBodyGyroMeanX
 
-		Mean of the time domain body gyroscope information: X-axis measurement
+		Mean of the time-domain body gyroscope information: X-axis measurement
 		
 *	22			timeBodyGyroMeanY
 
-		Mean of the time domain body gyroscope information: Y-axis measurement
+		Mean of the time-domain body gyroscope information: Y-axis measurement
 		
 *	23			timeBodyGyroMeanZ
 
-		Mean of the time domain body gyroscope information: Z-axis measurement
+		Mean of the time-domain body gyroscope information: Z-axis measurement
 		
 *	24			timeBodyGyroStdX
 
-		Std. Dev, of the time domain body gyroscope information: X-axis measurement
+		Std. Dev, of the time-domain body gyroscope information: X-axis measurement
 		
 *	25			timeBodyGyroStdY
 
-		Std. Dev, of the time domain body gyroscope information: Y-axis measurement
+		Std. Dev, of the time-domain body gyroscope information: Y-axis measurement
 		
 *	26			timeBodyGyroStdZ
 
-		Std. Dev, of the time domain body gyroscope information: Z-axis measurement
+		Std. Dev, of the time-domain body gyroscope information: Z-axis measurement
 		
 *	27			timeBodyGyroJerkMeanX
 
-		Mean of the time domain body jerk motion gyroscope information: X-axis measurement
+		Mean of the time-domain body jerk motion gyroscope information: X-axis measurement
 		
 *	28			timeBodyGyroJerkMeanY
 
-		Mean of the time domain body jerk motion gyroscope information: Y-axis measurement
+		Mean of the time-domain body jerk motion gyroscope information: Y-axis measurement
 		
 *	29			timeBodyGyroJerkMeanZ
 
-		Mean of the time domain body jerk motion gyroscope information: Z-axis measurement
+		Mean of the time-domain body jerk motion gyroscope information: Z-axis measurement
 		
 *	30			timeBodyGyroJerkStdX
 
-		Std. Dev. of the time domain body jerk motion gyroscope information: X-axis measurement
+		Std. Dev. of the time-domain body jerk motion gyroscope information: X-axis measurement
 		
 *	31			timeBodyGyroJerkStdY
 
-		Std. Dev. of the time domain body jerk motion gyroscope information: Y-axis measurement
+		Std. Dev. of the time-domain body jerk motion gyroscope information: Y-axis measurement
 		
 *	32			timeBodyGyroJerkStdZ
 
-		Std. Dev. of the time domain body jerk motion gyroscope information: Z-axis measurement
+		Std. Dev. of the time-domain body jerk motion gyroscope information: Z-axis measurement
 		
 *	33			timeBodyAccMagMean
 
-		Mean of the time domain 3-dimenaional magnitude body acceleration measurement
+		Mean of the time-domain 3-dimenaional magnitude body acceleration measurement
 		
 *	34			timeBodyAccMagStd
 
-		Std. Dev. of the time domain 3-dimenaional magnitude body acceleration measurement
+		Std. Dev. of the time-domain 3-dimenaional magnitude body acceleration measurement
 		
 *	35			timeGravityAccMagMean
 
-		Mean of the time domain 3-dimenaional magnitude gravity acceleration measurement
+		Mean of the time-domain 3-dimenaional magnitude gravity acceleration measurement
 		
 *	36			timeGravityAccMagStd
 
-		Std. Dev. of the time domain 3-dimenaional magnitude gravity acceleration measurement
+		Std. Dev. of the time-domain 3-dimenaional magnitude gravity acceleration measurement
 		
 *	37			timeBodyAccJerkMagMean
 
-		Mean of the time domain 3-dimenaional magnitude body jerk acceleration measurement
+		Mean of the time-domain 3-dimenaional magnitude body jerk acceleration measurement
 		
 *	38			timeBodyAccJerkMagStd
 
-		Std. Dev. of the time domain 3-dimenaional magnitude body jerk acceleration measurement
+		Std. Dev. of the time-domain 3-dimenaional magnitude body jerk acceleration measurement
 		
 *	39			timeBodyGyroMagMean
 
-		Mean of the time domain 3-dimenaional magnitude body gyroscope measurement
+		Mean of the time-domain 3-dimenaional magnitude body gyroscope measurement
 		
 *	40			timeBodyGyroMagStd
 
-		Std. Dev. of the time domain 3-dimenaional magnitude body gyroscope measurement
+		Std. Dev. of the time-domain 3-dimenaional magnitude body gyroscope measurement
 		
 *	41			timeBodyGyroJerkMagMean
 
-		Mean of the time domain 3-dimenaional magnitude body jerk gyroscope measurement
+		Mean of the time-domain 3-dimenaional magnitude body jerk gyroscope measurement
 		
 *	42			timeBodyGyroJerkMagStd
 
-		Std. Dev. of the time domain 3-dimenaional magnitude body jerk gyroscope measurement
+		Std. Dev. of the time-domain 3-dimenaional magnitude body jerk gyroscope measurement
 		
 *	43			freqBodyAccMeanX
 
-		Mean of frequency domain body acceleration: X-axis measurement
+		Mean of frequency-domain body acceleration: X-axis measurement
 	
 *	44			freqBodyAccMeanY
 
-		Mean of frequency domain body acceleration: Y-axis measurement
+		Mean of frequency-domain body acceleration: Y-axis measurement
 		
 *	45			freqBodyAccMeanZ
 
-		Mean of frequency domain body acceleration: Z-axis measurement
+		Mean of frequency-domain body acceleration: Z-axis measurement
 		
 *	46			freqBodyAccStdX
 
-		Std. Dev of frequency domain body acceleration: X-axis measurement
+		Std. Dev of frequency-domain body acceleration: X-axis measurement
 		
 *	47			freqBodyAccStdY
 
-		Std. Dev of frequency domain body acceleration: Y-axis measurement
+		Std. Dev of frequency-domain body acceleration: Y-axis measurement
 		
 *	48			freqBodyAccStdZ
 
-		Std. Dev of frequency domain body acceleration: Z-axis measurement
+		Std. Dev of frequency-domain body acceleration: Z-axis measurement
 		
 *	49			freqBodyAccMeanFreqX
 
-		Mean of frequency domain body acceleration mean frequency: X-axis measurement
+		Mean of frequency-domain body acceleration mean frequency: X-axis measurement
 		
 *	50			freqBodyAccMeanFreqY
 
-		Mean of frequency domain body acceleration mean frequency: Y-axis measurement
+		Mean of frequency-domain body acceleration mean frequency: Y-axis measurement
 		
 *	51			freqBodyAccMeanFreqZ
 
-		Mean of frequency domain body acceleration mean frequency: Z-axis measurement
+		Mean of frequency-domain body acceleration mean frequency: Z-axis measurement
 		
 *	52			freqBodyAccJerkMeanX
 
-		Mean of frequency domain body jerk acceleration: X-axis measurement
+		Mean of frequency-domain body jerk acceleration: X-axis measurement
 		
 *	53			freqBodyAccJerkMeanY
 
-		Mean of frequency domain body jerk acceleration: Y-axis measurement
+		Mean of frequency-domain body jerk acceleration: Y-axis measurement
 		
 *	54			freqBodyAccJerkMeanZ
 
-		Mean of frequency domain body jerk acceleration: Z-axis measurement
+		Mean of frequency-domain body jerk acceleration: Z-axis measurement
 		
 *	55			freqBodyAccJerkStdX
 
-		Std. Dev. of frequency domain body jerk acceleration: X-axis measurement
+		Std. Dev. of frequency-domain body jerk acceleration: X-axis measurement
 		
 *	56			freqBodyAccJerkStdY
 
-		Mean of frequency domain body jerk acceleration: Y-axis measurement
+		Mean of frequency-domain body jerk acceleration: Y-axis measurement
 		
 *	57			freqBodyAccJerkStdZ
 
-		Mean of frequency domain body jerk acceleration: Z-axis measurement
+		Mean of frequency-domain body jerk acceleration: Z-axis measurement
 		
 *	58			freqBodyAccJerkMeanFreqX
 
-		Mean of frequency domain body jerk acceleration mean frequency: X-axis measurement
+		Mean of frequency-domain body jerk acceleration mean frequency: X-axis measurement
 		
 *	59			freqBodyAccJerkMeanFreqY
 
-		Mean of frequency domain body jerk acceleration mean frequency: Y-axis measurement
+		Mean of frequency-domain body jerk acceleration mean frequency: Y-axis measurement
 		
 *	60			freqBodyAccJerkMeanFreqZ
 
-		Mean of frequency domain body jerk acceleration mean frequency: Z-axis measurement
+		Mean of frequency-domain body jerk acceleration mean frequency: Z-axis measurement
 		
 *	61			freqBodyGyroMeanX
 
-		Mean of the frequency domain body gyroscope information: X-axis measurement
+		Mean of the frequency-domain body gyroscope information: X-axis measurement
 		
 *	62			freqBodyGyroMeanY
 
-		Mean of the frequency domain body gyroscope information: Y-axis measurement
+		Mean of the frequency-domain body gyroscope information: Y-axis measurement
 		
 *	63			freqBodyGyroMeanZ
 
-		Mean of the frequency domain body gyroscope information: Z-axis measurement
+		Mean of the frequency-domain body gyroscope information: Z-axis measurement
 		
 *	64			freqBodyGyroStdX
 
-		Std. Dev. of the frequency domain body gyroscope information: X-axis measurement
+		Std. Dev. of the frequency-domain body gyroscope information: X-axis measurement
 		
 *	65			freqBodyGyroStdY
 
-		Std. Dev. of the frequency domain body gyroscope information: Y-axis measurement
+		Std. Dev. of the frequency-domain body gyroscope information: Y-axis measurement
 		
 *	66			freqBodyGyroStdZ
 
-		Std. Dev. of the frequency domain body gyroscope information: Z-axis measurement
+		Std. Dev. of the frequency-domain body gyroscope information: Z-axis measurement
 		
 *	67			freqBodyGyroMeanFreqX
 
-		 Mean of the frequency domain body gyroscope mean frequency information: X-axis measurement
+		 Mean of the frequency-domain body gyroscope mean frequency information: X-axis measurement
 		 
 *	68			freqBodyGyroMeanFreqY
 
-		Mean of the frequency domain body gyroscope mean frequency information: Y-axis measurement
+		Mean of the frequency-domain body gyroscope mean frequency information: Y-axis measurement
 		
 *	69			freqBodyGyroMeanFreqZ
 
-		Mean of the frequency domain body gyroscope mean frequency information: Z-axis measurement
+		Mean of the frequency-domain body gyroscope mean frequency information: Z-axis measurement
 		
 *	70			freqBodyAccMagMean
 
-		Mean of the frequency domain magnitude of body acceleration measurement
+		Mean of the frequency-domain magnitude of body acceleration measurement
 		
 *	71			freqBodyAccMagStd
 
-		Std. Dev. of the frequency domain magnitude of body acceleration measurement
+		Std. Dev. of the frequency-domain magnitude of body acceleration measurement
 		
 *	72			freqBodyAccMagMeanFreq
 
-		Mean of the frequence domain magnitude of the mean frequency of body accelereation measurement
+		Mean of the frequency magnitude of the mean frequency of body accelereation measurement
 		
 *	73			freqBodyBodyAccJerkMagMean
 
-		Mean of the frequency domain magnitude of the mean frequency of body-body accelereation measurement
+		Mean of the frequency-domain magnitude of the mean frequency of body-body accelereation measurement
 		
 *	74			freqBodyBodyAccJerkMagStd
 
-		Std. Dev. of the frequency domain magnitude of body-body jerk accelereation measurement
+		Std. Dev. of the frequency-domain magnitude of body-body jerk accelereation measurement
 		
 *	75			freqBodyBodyAccJerkMagMeanFreq
 
-		Mean of the frequency domain magnitude of the mean frequency of body-body jerk acceleration measurement
+		Mean of the frequency-domain magnitude of the mean frequency of body-body jerk acceleration measurement
 		
 *	76			freqBodyBodyGyroMagMean
 
-		Mean of the frequency domain magnitude of the gyroscopic body-body measurement
+		Mean of the frequency-domain magnitude of the gyroscopic body-body measurement
 		
 *	77			freqBodyBodyGyroMagStd
 
-		Std. Dev. of the frequency domain magnitude of the gyroscopic body-body measurement
+		Std. Dev. of the frequency-domain magnitude of the gyroscopic body-body measurement
 	
 *	78			freqBodyBodyGyroMagMeanFreq
 
-		Mean of the frequency domain magnitude of the mean frequency of the gyroscopic body-body measurement
+		Mean of the frequency-domain magnitude of the mean frequency of the gyroscopic body-body measurement
 		
 *	79			freqBodyBodyGyroJerkMagMean
 
-		Mean of the frequency domain magnitude of the mean frequency of the gyroscopic body-body jerk measurement
+		Mean of the frequency-domain magnitude of the mean frequency of the gyroscopic body-body jerk measurement
 		
 *	80			freqBodyBodyGyroJerkMagStd
 
-		Mean of the frequency domain magnitude of the gyroscopic body-body jerk measurement
+		Mean of the frequency-domain magnitude of the gyroscopic body-body jerk measurement
 		
 *	81			freqBodyBodyGyroJerkMagMeanFreq
 
-		Mean of the frequency domain magnitued of the mean frequence of the gyroscopic body-body jerk measurement
+		Mean of the frequency-domain magnitued of the mean frequency of the gyroscopic body-body jerk measurement
 		

@@ -6,6 +6,8 @@ Purpose
 This codebook describes the data fields present in the summarized Tidy UCI HAR dataset. This data set was created by joining both the 
 test and training datasets supplied in the UCI HAR dataset zip file.  A subset of the observations was taken which represent the mean and standard deviation measurements present in that dataset.  These measurements were then averaged for each of six activities used to measure each of 30 subjects.
 
+This dataset represents a Tidy-Wide version of the dataset.  
+
 Ths information below shows a brief description for each column in resulting data set with its associated column number in the dataset.  This dataset has 180 observations of 81 variables (2 independent variables and 79 dependent (measurement) variables).
 
 Nature of the Data

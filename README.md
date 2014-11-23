@@ -4,7 +4,10 @@ Tidy UCI HAR Dataset README File
 Purpose
 -------
 
-This readme file describes the steps (implemented in run_analysis.R) to create the Tidy UCI HAR dataset from the information and data supplied in the file: getdata-projectfiles-UCI HAR Dataset.zip.
+This readme file describes the steps (implemented in run_analysis.R) to create the Tidy UCI HAR dataset from the information and data supplied in the file: getdata-projectfiles-UCI HAR Dataset.zip which can be downloaded at:
+*
+
+	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
 Required Files

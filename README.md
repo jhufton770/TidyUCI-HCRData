@@ -28,14 +28,20 @@ The following files are required to run run_analysis.R to create/re-create the T
 							readable form
 		./run_analysis.R - Contains the R procedure for creating the final Tidy Wide version of the dataset 
 							from the component files
-		
+	
+	*NOTE: The files above are available in the specified zip file.*
+
+
 * Files created for running the run_analysis.R script (hand created and editied using grep and vi)
 
 		./selected_features.txt - Contains information to select the subset of columns from the complete 
 							merged (train and test) datasets
 		./tidy_selected_features.txt - Contains the column names in their final format for the final 
 							tidy data set
-		
+	
+	*NOTE: The files above are included in the Git repository for this project*
+
+
 * Output files produced by run_analysis.R script
 
 		./tidy_UCI_HAR.txt - Pure text version of the output used for the project submission
@@ -56,7 +62,7 @@ If the dplyr package is not already installed, be sure to install it before runn
 The output .txt and .csv files will then be produced by running the run_analysis.R script either from within the R console or from within R Studio.
 
 Implementation Details
------------------------
+----------------------- 
 
 * The specific steps executed by the run_analysis.R script follow:
 
@@ -69,7 +75,7 @@ Implementation Details
 		- Read in the test data Activity column data from y_test.txt
 		- Read in the train data Activity column data from y_train.txt
 		- Read in the information to translate the interger encoded Activity data to human readable form 
-			from ativity_labels.txt
+			from ativity_labels.txt_
 		- Translate the interger encoded data in the Activity test and train data to human readable form
 		- Add the column names for the observed data columns in test and train data sets
 		- Add the corresponding Subject numbers as a column to the respective test and train data sets
@@ -102,9 +108,19 @@ Implementation Details
 		
 
 For further details of the implementation of the above steps, please inspect the run_analysis.R file.
-_
 
-_
+
+Modifying the Subset of Columns in the Tidy Dataset
+---------------------------------------------------
+
+The subset of columns chosen for the final version of the Tidy Wide dataset may be modified by judiciously editing both the *selected_features.txt* and *tidy_selected_features.txt* files.
+
+The *selected_features.txt* file is a subset of the *features.txt* file supplied in the original zip file.  The column numbers in the first column of this file are used to define the columns from the combined test and train data files that are retained in the resulting dataset which forms the basis for the final Tidy Wide dataset.  Modifying this file will change the columns contained in the merged dataset which forms the basis for the final Tidy Wide dataset.  It is important to keep the column numbers and column name values in each row consistent with those found in the original *features.txt* file.  Just remove the rows corresponding to the data columns you want to exclude from the final Tidy Wide dataset.
+
+The *tidy_selected_features.txt* file contains the new column names, consistent with the principles of tidy data, that are applied to the final Tidy Wide dataset.  The lines in this file should correspond to those in the *selected_features.txt* file.  The column numbers should be exactly the same, the corresponding column names should be adjusted to comply with the principles of tidy data.  It is recommended to start with a copy of the *selected_features.txt* file from the previous step, then modify the column names in order to maintain consistency with the set of columns in the final Tidy Wide dataset.
+
+Changes made to the column set in the final Tidy Wide dataset should be propagated to the project codebook.md file to retain documentation consistency with any changes made to the column set in the final dataset.
+
 
 
 

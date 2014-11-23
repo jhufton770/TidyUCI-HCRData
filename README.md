@@ -29,7 +29,7 @@ The following files are required to run run_analysis.R to create/re-create the T
 		./run_analysis.R - Contains the R procedure for creating the final Tidy Wide version of the dataset 
 							from the component files
 	
-	*NOTE: The files above are available in the specified zip file.*
+	*NOTE: The above files are available in the specified zip file.*
 
 
 * Files created for running the run_analysis.R script (hand created and editied using grep and vi)
@@ -39,7 +39,7 @@ The following files are required to run run_analysis.R to create/re-create the T
 		./tidy_selected_features.txt - Contains the column names in their final format for the final 
 							tidy data set
 	
-	*NOTE: The files above are included in the Git repository for this project*
+	*NOTE: The above files are included in the Git repository for this project*
 
 
 * Output files produced by run_analysis.R script

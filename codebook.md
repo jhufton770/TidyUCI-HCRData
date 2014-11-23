@@ -22,9 +22,9 @@ A series of low pass filters were used on the data to classify the measurements 
 
 	*	Noise - higher frequency components of the data deemed to be noise (eliminated from the dataset)
 	*	Acceleration - middle range frequency components of the data which are interpreted as body motion
-	*	Gravity - low range frequency components of the data which are interprested as the effects of gravity
+	*	Gravity - low range frequency components of the data which are interpreted as the effects of gravity
 
-Measurements from each set of observational variables are presented in the time-domain, as well as in the frequency-domain.  Frequency-domain information was obtained by applying a Fast Fourier Transform to some of the data.
+Measurements from each set of observational variables are presented in the time-domain, as well as in the frequency-domain.  Frequency-domain information was obtained by applying a Fast Fourier Transform to a subset of the data.
 
 Dataset Columns
 ---------------

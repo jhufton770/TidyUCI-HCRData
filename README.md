@@ -49,7 +49,7 @@ The following files are required to run run_analysis.R to create/re-create the T
 Execution Steps to Create/Re-Create the Tidy UCI HAR dataset
 ------------------------------------------------------------
 
-All of the files indicated above should be placed in the indicated locations in the top level directory.  The top level directory should be the one created by unzipping the getdata-projectfiles-UCI HAR Dataset.zip **and should be set as the working diretory in R before running the run_analysis.R procedure**.
+All of the files indicated above should be placed in the indicated subfolders relative to the top level directory.  The top level directory should be the one created by unzipping the getdata-projectfiles-UCI HAR Dataset.zip **and should be set as the working diretory in R before running the run_analysis.R procedure**.
 
 If the dplyr package is not already installed, be sure to install it before running the run_analysis.R script (install.packages("dplyr")).
 
@@ -79,14 +79,15 @@ Implementation Details
 		- Read in information about the columns to keep in the final tidy dataset
 		- Use the set of coluns to keep to eliminate unwanted columns of data in the combined data set
 		- Use the set of column names to appropriately name the columns in the combined data set
-		- Move the columns of the two independent variables (Subject and Activity) to be the leftmost columns in the dataset
+		- Move the columns of the two independent variables (Subject and Activity) to be the leftmost columns 
+			in the dataset
 		- This new, combined and subsetted dataset is called X_final
 		- Using a set of three nested loops, process the data in X_final to calculate the average 
 			(mean) values for the observed data for
 			- Each of the 30 subjects for
 			- Each of the six activities (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
-			- This yeilds a data set that has the average values for the observation data for each of the six activities for
-				each of the 30 subjects (180 observations of 81 variables)
+			- This yeilds a data set that has the average values for the observation data for each of the six 
+				activities for each of the 30 subjects (180 observations of 81 variables)
 			- The resulting dataset is the Tidy Wide dataset
 		- Read in the tidy dataset column names from tidy_selected_features.txt and apply them to the 
 			Tidy Wide dataset

@@ -52,7 +52,7 @@ Execution Steps to Create/Re-Create the Tidy UCI HAR dataset
 All of the files indicated above should be placed in the indicated locations in the top level directory.  The top level directory should be the one created by unzipping the getdata-projectfiles-UCI HAR Dataset.zip **and should be set as the working diretory in R before running the run_analysis.R procedure**.
 
 The output .txt and .csv files will then be produced by running the run_analysis.R script either from within the R console or from within R Studio.
-_
+
 Implementation Details
 -----------------------
 

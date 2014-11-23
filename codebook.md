@@ -1,4 +1,4 @@
-Human Activity Recognition Using Samrphones Dataset Codebook
+Human Activity Recognition Using Samrtphones Dataset Codebook
 ===========
 
 Purpose

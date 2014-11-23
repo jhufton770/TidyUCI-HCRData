@@ -24,12 +24,12 @@ The following files are required to run run_analysis.R to create/re-create the T
 		./test/y_test.txt - Contains the data for the Activity column of the test data set coded as integers
 		./features.txt - Contains the column labels for the observed data both the test and train portions of the 
 							dataset
-		./activity_labes.txt - Contains information to translate the interger coded activity data to a human 
+		./activity_labels.txt - Contains information to translate the interger coded activity data to a human 
 							readable form
 		./run_analysis.R - Contains the R procedure for creating the final Tidy Wide version of the dataset 
 							from the component files
 		
-* Files created for running the run_analysis.R script (hand editied using grep and vi)
+* Files created for running the run_analysis.R script (hand created and editied using grep and vi)
 
 		./selected_features.txt - Contains information to select the subset of columns from the complete 
 							merged (train and test) datasets
@@ -50,6 +50,8 @@ Execution Steps to Create/Re-Create the Tidy UCI HAR dataset
 ------------------------------------------------------------
 
 All of the files indicated above should be placed in the indicated locations in the top level directory.  The top level directory should be the one created by unzipping the getdata-projectfiles-UCI HAR Dataset.zip **and should be set as the working diretory in R before running the run_analysis.R procedure**.
+
+If the dplyr package is not already installed, be sure to install it before running the run_analysis.R script (install.packages("dplyr")).
 
 The output .txt and .csv files will then be produced by running the run_analysis.R script either from within the R console or from within R Studio.
 
@@ -77,8 +79,8 @@ Implementation Details
 		- Read in information about the columns to keep in the final tidy dataset
 		- Use the set of coluns to keep to eliminate unwanted columns of data in the combined data set
 		- Use the set of column names to appropriately name the columns in the combined data set
-		- This new, combined and subsetted dataset is called X_final
 		- Move the columns of the two independent variables (Subject and Activity) to be the leftmost columns in the dataset
+		- This new, combined and subsetted dataset is called X_final
 		- Using a set of three nested loops, process the data in X_final to calculate the average 
 			(mean) values for the observed data for
 			- Each of the 30 subjects for

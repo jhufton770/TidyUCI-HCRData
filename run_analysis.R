@@ -84,11 +84,14 @@ X_final <- data.frame('Subject' = X_selected[ ,80], 'Activity' = X_selected[ , 8
 # Create a vector with the six activities tracked for each of the 30 subjects observed
 activities <- c("LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS")
 
+#Calculate the number of columns in the final full dataset to process
+cols <- dim(X_final)[2]
+
 # Initialize an empty data frame to hold the results of summarizing the data
 tidy_final <- data.frame()
 
 # A set of three nested for loops are used to summarize (using the mean() function) the observational data for each of the
-# 30 subjects in the study, for each of the six activities over each of the 79 variables collected per observation
+# 30 subjects in the study, for each of the six activities over each of the observation variables collected per observation
 # for each combination of 30 subjects and 6 activities
 #
 # In the innermost loop, the mean() is calculated for each of the relevant 79 variables collected.
@@ -98,7 +101,7 @@ tidy_final <- data.frame()
 for (subject in 1:30) {
     for (activity in activities) {
         c <- vector()
-        for (col in 3:81) {
+        for (col in 3:cols) {
             c <- cbind( c, mean(X_final[(X_final$Subject == subject & X_final$Activity == activity), col]))
         }
         tidy_final <- rbind( tidy_final, 
